@@ -74,4 +74,41 @@ public class KayThread {
         thread.start();
         return id;
     }
+
+    /**
+     * Synchronizes the threads with the specified IDs.
+     *
+     * @param threadIds the IDs of the threads to synchronize
+     */
+    public static void synchronizeThreads(ArrayList<Integer> threadIds) {
+        // Create a list of locks for each thread
+        ArrayList<Object> locks = new ArrayList<>();
+        for (int id : threadIds) {
+            locks.add(new Object());
+        }
+
+        // Set the current lock index to 0
+        AtomicInteger lockIndex = new AtomicInteger(0);
+
+        // Iterate through the thread IDs and synchronize them
+//        for (int id : threadIds) {
+//            final int currentLockIndex = lockIndex.getAndIncrement();
+//            KayThread kayThread = KayThread.getThreadById(id);
+//            kayThread.kayThreadInterface = new KayThreadInterface() {
+//                @Override
+//                public void kayRun() {
+//                    synchronized (locks.get(currentLockIndex)) {
+//                        kayThread.kayThreadInterface.kayRun();
+//                    }
+//                }
+//
+//                @Override
+//                public void kayFinish(int id) {
+//                    synchronized (locks.get(currentLockIndex)) {
+//                        kayThread.kayThreadInterface.kayFinish(id);
+//                    }
+//                }
+//            };
+//        }
+    }
 }
