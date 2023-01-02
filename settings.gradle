@@ -1,2 +1,4 @@
 rootProject.name = 'KayThread'
+include 'src:main:java:KayThread1'
+findProject(':src:main:java:KayThread1')?.name = 'KayThread1'
 
