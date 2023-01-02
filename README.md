@@ -7,7 +7,7 @@
 -Synchronize any number of threads
 ## Getting Started
 How to
-To get a Git project into your build: #Version: 
+To get a Git project into your build: #Version: [![](https://jitpack.io/v/TrikayCoder/KayThread.svg)](https://jitpack.io/#TrikayCoder/KayThread)
 [![](https://jitpack.io/v/TrikayCoder/TrikayDev.KayThread.svg)](https://jitpack.io/#TrikayCoder/TrikayDev.KayThread)
 
 Step 1. Add the JitPack repository to your build file<br>
