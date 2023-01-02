@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c8d033b-73a3-46fe-bda0-e23b8f5f7ddc" name="Changes" comment="" />
+    <list default="true" id="1c8d033b-73a3-46fe-bda0-e23b8f5f7ddc" name="Changes" comment="-Fix ID and Thread (Now, Thread will &quot;real&quot; has itseft ID)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KayThread/KayThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KayThread/KayThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2JlorHCwNLanxrzD2X02sys3ZC4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,6 +48,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672662230230</updated>
     </task>
+    <task id="LOCAL-00001" summary="-Fix ID and Thread (Now, Thread will &quot;real&quot; has itseft ID)">
+      <created>1672663110576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672663110576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-Fix ID and Thread (Now, Thread will &quot;real&quot; has itseft ID)" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Fix ID and Thread (Now, Thread will &quot;real&quot; has itseft ID)" />
   </component>
 </project>
