@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * The KayThread class represents a thread that can be controlled by the user.
  * It provides methods to start, stop, and finish the thread, as well as an
  * interface to be implemented by the user to specify the code to be executed
- * by the thread.
+ * by the thread..
  */
 public class KayThread {
     private static AtomicInteger nextId = new AtomicInteger();
