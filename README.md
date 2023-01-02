@@ -1,4 +1,8 @@
 # KayThread
+<p align="center">
+  <img src="src/main/java/org/example/Astronaut Esports Team Gaming Logo.png" width="350" title="hover text">
+</p>
+
 ## UPDATE VERSION
 ## 1.1.0
 -Now, Thread will "real" has itseft ID)
