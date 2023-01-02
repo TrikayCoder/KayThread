@@ -1,4 +1,4 @@
-# TrikayDev.KayThread
+# KayThread
 ## UPDATE VERSION
 ## 1.1.0
 -Now, Thread will "real" has itseft ID)
@@ -52,7 +52,7 @@ Maven
  ```
 
 ## How to use
-TrikayDev.KayThread: is a Java class that allows you to create and control threads easily. It provides the following methods:
+### KayThread is a Java class that allows you to create and control threads easily. It provides the following methods:
 
 kayRun():
 This method should contain the logic that you want to run in the background. It will be called automatically when you start a new thread using the start() method.
