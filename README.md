@@ -4,6 +4,9 @@
 </p>
 
 ## UPDATE VERSION
+##1.1.1
+-Optimal struct code
+
 ## 1.1.0
 -Now, Thread will "real" has itseft ID)
 
