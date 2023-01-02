@@ -1,5 +1,8 @@
 # TrikayDev.KayThread
 ## UPDATE VERSION
+## 1.1.0
+-Now, Thread will "real" has itseft ID)
+
 ### 1.0.2
 -Fix bug (Now, kayFinish will be called after kayRun finish it'self)
 
