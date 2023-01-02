@@ -1,5 +1,12 @@
-# TrikayDev.KayThread
+# KayThread
+<p align="center">
+  <img src="src/main/java/org/example/Astronaut Esports Team Gaming Logo.png" width="350" title="hover text">
+</p>
+
 ## UPDATE VERSION
+## 1.1.0
+-Now, Thread will "real" has itseft ID)
+
 ### 1.0.2
 -Fix bug (Now, kayFinish will be called after kayRun finish it'self)
 
@@ -7,7 +14,7 @@
 -Synchronize any number of threads
 ## Getting Started
 How to
-To get a Git project into your build: #Version: 
+To get a Git project into your build: #Version: [![](https://jitpack.io/v/TrikayCoder/KayThread.svg)](https://jitpack.io/#TrikayCoder/KayThread)
 [![](https://jitpack.io/v/TrikayCoder/TrikayDev.KayThread.svg)](https://jitpack.io/#TrikayCoder/TrikayDev.KayThread)
 
 Step 1. Add the JitPack repository to your build file<br>
@@ -49,7 +56,7 @@ Maven
  ```
 
 ## How to use
-TrikayDev.KayThread: is a Java class that allows you to create and control threads easily. It provides the following methods:
+### KayThread is a Java class that allows you to create and control threads easily. It provides the following methods:
 
 kayRun():
 This method should contain the logic that you want to run in the background. It will be called automatically when you start a new thread using the start() method.
