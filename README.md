@@ -74,9 +74,9 @@ start(KayThreadInterface kayThreadInterface):
 This method will start a new thread and execute the kayRun() method. It returns the ID of the new thread.
 
 ## Example
+### Simple Guild
 ```sh
-TrikayDev.KayThread kayThread = new TrikayDev.KayThread();
-//EACH "ID" is a Thread
+KayThread kayThread = new KayThread();
 int ID = kayThread.start(new KayThreadInterface() {
              @Override
              public void kayRun() {
@@ -112,7 +112,33 @@ int ID_02 = kayThread.start(new KayThreadInterface() {
 		 // Your code to be executed when the thread with ID "id" finishes goes here
              }
          });
+         
 //Finish any Thread with it ID
 kayThread.kayStop(ID);
  ```
- 
+
+### Hard Guild
+#### First, you must create KayThread Object
+```sh
+KayThread kayThread = new KayThread();
+ ```
+#### To Generate Logic for your Thread you can create the following:
+```sh
+        KayThreadInterface kayThreadInterface = new KayThreadInterface() {
+            @Override
+            public void kayRun() {
+                //Your Logic when Thread start
+            }
+
+            @Override
+            public void kayFinish(int id) {
+                //Your Logic when Thread completed or finish
+            }
+        };
+ ```
+#### And then, when you want to start running your Thread, you pass the KayThreadInterface containing your logic to the "start" method as follows:
+```sh
+        int ID_THREAD = kayThread.start(kayThreadInterface);
+ ```
+
+
